@@ -22,18 +22,26 @@
         background-size: 90%;
         background-position: center;
         background-repeat: no-repeat;
+        padding: 20px;
       }
-      .card.card-img-top {
-        width: 90%;
-        height: 90%;
+
+      .card{
+         width: 30%;
+         margin:0 auto;
+      }
+      .card-img-top{
+        width: 100%;
+        height: 30vh;
         object-fit: cover;
       }
       .col-md img{
         size: 80%;
       }
 
-      .card-body h3{
+      .card-title{
         text-align: center;
+        font-family: serif;
+        font-style: italic;
       }
 
       .trouble-link{
@@ -42,7 +50,12 @@
         color:#00000;
 
       }
-      .trouble-link a{}
+      .col-2{
+        border: solid lightgrey 1px;
+        border-radius: 20px;
+        box-shadow: 0px 2px 0 0 lightgrey;
+        margin: 15px 20px;
+      }
 
     </style>
 
@@ -51,7 +64,7 @@
   <body>
     <div class="bg-image">
             <!--card -->
-      <div class="card" style="width: 30%; margin:0 auto;">
+      <div class="card">
         <img src="https://github.com/m3mange/BOOTSTRAP-CHALLENGE-01/blob/master/images/tinder-logo.png?raw=true" class="card-img-top img-fluid" alt="...">
         <div class="card-body">
           <h3 class="card-title">GET STARTED</h3>
@@ -65,10 +78,10 @@
           <h3 class="card-title">GET THE APP!!</h3>
           <div class="row justify-content-center">
             <div class="col-2">
-              <img src="https://github.com/m3mange/BOOTSTRAP-CHALLENGE-01/blob/master/images/apple-logo.png?raw=true" class="img-fluid img-thumbnail" alt="">
+              <img src="https://github.com/m3mange/BOOTSTRAP-CHALLENGE-01/blob/master/images/apple-logo.png?raw=true" class="img-fluid" alt="">
             </div>
             <div class="col-2">
-              <img src="https://github.com/m3mange/BOOTSTRAP-CHALLENGE-01/blob/master/images/playstore-logo.png?raw=true" class="img-fluid img-thumbnail" alt="">
+              <img src="https://github.com/m3mange/BOOTSTRAP-CHALLENGE-01/blob/master/images/playstore-logo.png?raw=true" class="img-fluid" alt="">
             </div>
 
           </div>
