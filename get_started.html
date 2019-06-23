@@ -32,6 +32,18 @@
         size: 80%;
       }
 
+      .card-body h3{
+        text-align: center;
+      }
+
+      .trouble-link{
+        text-align: center;
+        text-decoration: underline;
+        color:#00000;
+
+      }
+      .trouble-link a{}
+
     </style>
 
   </head>
@@ -39,14 +51,17 @@
   <body>
     <div class="bg-image">
             <!--card -->
-      <div class="card" style="width: 35%; margin:0 auto;">
+      <div class="card" style="width: 30%; margin:0 auto;">
         <img src="https://github.com/m3mange/BOOTSTRAP-CHALLENGE-01/blob/master/images/tinder-logo.png?raw=true" class="card-img-top img-fluid" alt="...">
         <div class="card-body">
           <h3 class="card-title">GET STARTED</h3>
-          <p class="card-text">By clicking log in, you agree with our Terms, Privacy Policy and Cookie Policy</p>
+          <p class="card-text">By clicking log in, you agree with our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a></p>
           <a href="#" class="btn btn-primary btn-lg btn-block">LOG IN WITH FACEBOOK</a>
           <a href="#" class="btn btn-outline-secondary btn-lg btn-block">LOG IN WITH PHONE NUMBER</a> <br>
-          <a href="#" class="card-link">Trouble Logging In?</a>
+          <div class="trouble-link">
+            <a href="#" class="card-link">Trouble Logging In?</a>
+          </div>
+
           <h3 class="card-title">GET THE APP!!</h3>
           <div class="row justify-content-center">
             <div class="col-2">
